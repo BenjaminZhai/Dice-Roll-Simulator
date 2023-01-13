@@ -6,8 +6,6 @@ showmenufunc();
 Random dice = new Random();
 bool loop = true;
 
-// MENU
-
 while (loop == true)
 {
 
@@ -81,6 +79,7 @@ while (loop == true)
     }
 }
 
+// MENU
 void showmenufunc()
 {
     Console.WriteLine("\nDice Roll Simulator Menu");
